@@ -1,0 +1,21 @@
+{
+    "perl"         : "6.c",
+    "name"         : "Callable::ByCount",
+    "license"      : "Artistic-2.0",
+    "version"      : "1.001001",
+    "description"  : "Execute Callables with args, based on their .count",
+    "tags"         : [ "callable" ],
+    "depends"      : [ ],
+    "test-depends" : [
+        "Testo",
+        "Test::META"
+    ],
+    "provides"     : {
+        "Callable::ByCount": "lib/Callable/ByCount.pm6"
+    },
+    "authors"       : ["Zoffix Znet"],
+    "support"       : {
+        "source" :
+        "https://github.com/zoffixznet/perl6-Callable-ByCount.git"
+    }
+}
